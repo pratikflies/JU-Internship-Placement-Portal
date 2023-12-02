@@ -1,0 +1,36 @@
+{
+  "name": "ju_placement_internship_portal_backend",
+  "version": "1.0.0",
+  "description": "A portal to register for internship/placement_backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback"
+  },
+  "author": "Pratik & Udit",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "knex": "^3.0.1",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.2",
+    "pg": "^8.11.3",
+    "nodemailer": "^6.9.7"
+  }
+}
